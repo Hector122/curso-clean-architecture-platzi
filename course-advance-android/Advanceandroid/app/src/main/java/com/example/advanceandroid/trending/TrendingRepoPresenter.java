@@ -2,11 +2,12 @@ package com.example.advanceandroid.trending;
 
 import com.example.advanceandroid.data.RepoRequested;
 import com.example.advanceandroid.di.ScreenScope;
+import com.example.advanceandroid.model.Repo;
 
 import javax.inject.Inject;
 
 @ScreenScope
-public class TrendingRepoPresenter {
+public class TrendingRepoPresenter implements RepoAdapter.RepoClickedListener  {
     private TrendingResponseViewModel viewModel;
     private RepoRequested repoRequested;
 
@@ -22,5 +23,10 @@ public class TrendingRepoPresenter {
                 .doOnSubscribe( dummy -> viewModel.loadingUpdate().accept(true))
                 .doOnEvent((data, throwable) -> viewModel.loadingUpdate().accept(true))
                 .subscribe(viewModel.reposUpdated(), viewModel.onError());
+    }
+
+    @Override
+    public void onRepoClick(Repo repo) {
+
     }
 }

@@ -4,7 +4,7 @@ import com.google.auto.value.AutoValue;
 import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
 
-@AutoValue //
+@AutoValue
 public abstract class User {
 
     public abstract long id();

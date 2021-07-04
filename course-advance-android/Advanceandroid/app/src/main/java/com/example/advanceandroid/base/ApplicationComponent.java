@@ -1,6 +1,5 @@
 package com.example.advanceandroid.base;
 
-import com.example.advanceandroid.data.RepoService;
 import com.example.advanceandroid.data.RepoServiceModule;
 import com.example.advanceandroid.networking.ServiceModule;
 

@@ -35,7 +35,6 @@ public class ScreenInjector {
         }
 
         String instanceId = controller.getInstanceId();
-
         if(cache.containsKey(instanceId)){
             cache.get(instanceId).inject(controller);
             return;

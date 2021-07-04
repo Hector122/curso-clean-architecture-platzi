@@ -32,10 +32,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Inject
     DefaultScreenNavigator screenNavigator;
 
-    Router router;
-
     //instance id for configuration changes.
-    public String instanceId;
+    private String instanceId;
+    private Router router;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -57,7 +56,6 @@ public abstract class BaseActivity extends AppCompatActivity {
 
         router = Conductor.attachRouter(this, screenContainer, savedInstanceState);
         screenNavigator.initWithRouter(router, initController());
-
         monitorBackStack();
     }
 
