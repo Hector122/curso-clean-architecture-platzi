@@ -2,10 +2,12 @@ package com.example.daggerexample2.car;
 
 import android.util.Log;
 
+import com.example.daggerexample2.di.PerActivity;
 import com.example.daggerexample2.external.Wheels;
 
 import javax.inject.Inject;
 
+@PerActivity
 public class Car {
     private static final String TAG = "Car";
     // execution second by dagger
