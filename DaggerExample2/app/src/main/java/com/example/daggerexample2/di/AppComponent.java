@@ -7,7 +7,7 @@ import javax.inject.Singleton;
 import dagger.Component;
 
 @Singleton
-@Component
+@Component(modules = DriverModule.class)
 public interface AppComponent {
 
     Driver getDriver();
