@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.advanceandroid.R;
 import com.example.advanceandroid.base.BaseController;
 
+import java.util.Objects;
+
 import javax.inject.Inject;
 
 import butterknife.BindView;
@@ -51,7 +53,7 @@ public class TrendingRepoController extends BaseController {
                 }),
                 viewModel.repos()
                         .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe(((RepoAdapter) repoList.getAdapter())::setData),
+                        .subscribe(((RepoAdapter) Objects.requireNonNull(repoList.getAdapter()))::setData),
 
                 viewModel.error()
                         .observeOn(AndroidSchedulers.mainThread())

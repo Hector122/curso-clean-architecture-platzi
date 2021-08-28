@@ -8,6 +8,7 @@ public interface RepoService {
     @GET("search/repositories?q=language:java&order=desc&sort=stars")
     Single<TrendingReposResponse> getTrendingRepos();
 
-    //Single:RX Is a String that want only met onw item or error. better git for network request that observer.
+    //Single:RX Is a String that want only met onw item or error.
+    // better git for network request that observer.
 
 }

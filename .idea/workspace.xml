@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a6c1948-e0c4-465a-bdda-348e680c6015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/test/java/com/example/advanceandroid/testutils/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/test/java/com/example/advanceandroid/trending/TrendingResponseViewModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/test/resources/mock/get_trending_repo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture-components-samples" beforeDir="false" afterPath="$PROJECT_DIR$/architecture-components-samples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/data/RepoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/data/RepoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/model/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/model/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/networking/ServiceModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/networking/ServiceModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/trending/TrendingRepoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/app/src/main/java/com/example/advanceandroid/trending/TrendingRepoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-advance-android/Advanceandroid/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/course-advance-android/Advanceandroid/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dagger/dependency-injection-in-android-course" beforeDir="false" afterPath="$PROJECT_DIR$/course-dagger/dependency-injection-in-android-course" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xDdnkR35He92oYYLX5KFDDqASZ" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a6c1948-e0c4-465a-bdda-348e680c6015" name="Default Changelist" comment="" />
+      <created>1629893761750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629893761750</updated>
+    </task>
+    <servers />
+  </component>
+</project>
