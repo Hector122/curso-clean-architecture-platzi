@@ -21,20 +21,30 @@ public interface ActivityComponent {
 
     void inject(MainActivity mainActivity);
 
-    @Subcomponent.Builder
-    interface Builder {
+    /* After Dagger2 version 2.22 with Factory */
+    @Subcomponent.Factory
+    interface Factory {
 
-        @BindsInstance
-        Builder horsePower(@Named("Horse Power") int horsePower);
-
-        @BindsInstance
-        Builder engineCapacity(@Named("Engine Capacity") int engineCapacity);
-
-        // This method is generated automatic is we don't user a builder component
-        // by the 'dependencies' value in component annotation.
-        // that is way we need to specified.
-        ///Builder appComponent(AppComponent appComponent);
-
-        ActivityComponent build();
+        ActivityComponent factory(@BindsInstance @Named("Horse Power") int horsePower,
+                                  @BindsInstance @Named("Engine Capacity") int engineCapacity);
     }
+
+    /* Before Dagger 2.22 with Builder */
+
+//    @Subcomponent.Builder
+//    interface Builder {
+//
+//        @BindsInstance
+//        Builder horsePower(@Named("Horse Power") int horsePower);
+//
+//        @BindsInstance
+//        Builder engineCapacity(@Named("Engine Capacity") int engineCapacity);
+//
+//        // This method is generated automatic is we don't user a builder component
+//        // by the 'dependencies' value in component annotation.
+//        // that is way we need to specified.
+//        ///Builder appComponent(AppComponent appComponent);
+//
+//        ActivityComponent build();
+//    }
 }
