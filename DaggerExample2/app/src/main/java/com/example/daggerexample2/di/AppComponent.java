@@ -20,8 +20,8 @@ public interface AppComponent {
     //after Dagger 2.22
     ActivityComponent.Factory getActivityComponentFactory();
 
-//    @Component.Factory
-//    interface Factory {
-//        AppComponent create(DriverModule driverModule);
-//    }
+    @Component.Factory
+    interface Factory{
+        AppComponent create(DriverModule driverModule);
+    }
 }

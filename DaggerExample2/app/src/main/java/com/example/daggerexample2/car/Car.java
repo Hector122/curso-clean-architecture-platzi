@@ -33,6 +33,6 @@ public class Car {
 
 
     public void driving() {
-        Log.i(TAG,driver + " drives " + this );
+        Log.i(TAG, "driver: " + driver.name + ", drives "  + this );
     }
 }

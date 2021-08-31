@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.daggerexample2.car.Car;
 import com.example.daggerexample2.di.ActivityComponent;
 import com.example.daggerexample2.di.DaggerAppComponent;
+import com.example.daggerexample2.di.ExampleApp;
 
 import javax.inject.Inject;
 
@@ -23,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         /*ActivityComponent activityComponent = DaggerAppComponent.create()
                 .provideActivityComponent(new DieselEngineModule(100)); */
 
-        ActivityComponent activityComponent = DaggerAppComponent.create()
+        ActivityComponent activityComponent = ((ExampleApp) getApplication())
+                .getAppComponent()
                 .getActivityComponentFactory()
                 .factory(250, 1400);
 
