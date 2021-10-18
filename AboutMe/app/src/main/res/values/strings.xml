@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="textview">John Wick</string>
+    <string name="star_icon">star icon</string>
+    <string name="bio">Wick was born Jardani Jovanovich (Russian: Джордани Йованович, Belarusian: Ярдані Іовоновіч) in Padhorje, Byelorussian SSR, Soviet Union on September 12, 1964. He was orphaned at a young age before being taken in by an old friend of his father, who would eventually become Wick\'s mentor.[2] It is revealed in the John Wick comic book mini-series that he spent a significant portion of his adolescence in El Sauzel, Mexico.[3] At one point, he was recruited by a Ruska Roma organized crime group and trained by its leader, a woman known as "the Director", in New York City. Under the Director\'s supervision, Wick was trained as a hitman and learned skills including martial arts, firearms and other weaponry, tactical driving, infiltration, escapology and more. After leaving the Ruska Roma organization, he was arrested for an unspecified crime and incarcerated.[4] Upon release, he was manipulated into joining the underground crime world operating out of the Continental Hotel chain.[5] Wick eventually became the top enforcer for the New York Russian crime syndicate, becoming a feared and ruthless hitman that people describe as "a man of focus, commitment, and sheer will". He was later nicknamed "Baba Yaga", being further described as the man one would send to "kill the Bogeyman". His prowess was such that he once single-handedly killed three men in a bar with a pencil.</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="done">Done</string>
+</resources>
