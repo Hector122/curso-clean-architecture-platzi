@@ -48,7 +48,8 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             //textNickname.text = textInputName.text.toString()
             myName?.nickname = textInputName.text.toString()
-            invalidateAll()  //requests a new rebind to refresh UI
+            //Invalidate all binding expressions and requests a new rebind to refresh UI
+            invalidateAll()
             textNickname.visibility = View.VISIBLE
             textInputName.visibility = View.GONE
             buttonDone.visibility = View.GONE

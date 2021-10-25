@@ -3,8 +3,8 @@ package com.example.dagerexample1.di;
 import dagger.Module;
 
 
-//the "subcomponents" attribute tells Dagger that this is a subcomponent of the Component this
-// module is include in.
-
-public class SubcomponetsModule {
+// The "subcomponents" attribute in the @Module annotation tells Dagger what
+// Subcomponents are children of the Component this module is included in.
+@Module(subcomponents = LoginComponent.class)
+public class SubcomponentsModule {
 }

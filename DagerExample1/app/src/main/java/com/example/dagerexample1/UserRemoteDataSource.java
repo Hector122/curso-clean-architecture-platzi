@@ -2,12 +2,12 @@ package com.example.dagerexample1;
 
 import javax.inject.Inject;
 
-public class RemoteRepo {
+public class UserRemoteDataSource {
 
     LoginRetrofitService loginRetrofitService;
 
     @Inject
-    RemoteRepo(LoginRetrofitService loginRetrofitService){
+    UserRemoteDataSource(LoginRetrofitService loginRetrofitService){
         this.loginRetrofitService = loginRetrofitService;
     }
 }
