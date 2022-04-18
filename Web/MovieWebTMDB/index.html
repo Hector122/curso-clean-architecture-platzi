@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author: hector" content="test" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <title>Movie TMDB</title>
+        <header>
+            <form id="form">
+                <input
+                    id="search"
+                    type="text"
+                    placeholder="Seach"
+                    class="search"
+                />
+            </form>
+        </header>
+        <div id="tags">
+            <div class="tag">Accion</div>
+            <div class="tag">Drama</div>
+            <div class="tag">Comedia</div>
+            <div class="tag">Horror</div>
+        </div>
+
+        <main id="main"></main>
+        <div id="pagination" class="pagination">
+            <div class="page disable" id="previous">Previus page</div>
+            <div class="current" id="current">1</div>
+            <div class="page" id="next">Next page</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

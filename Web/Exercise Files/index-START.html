@@ -1,0 +1,122 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adding 2 Numbers | Happy Learning!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+<body onload="playGame()">
+	<!-- 
+Join the 'Happy Learning' Team in slack, where we will discuss 
+everything about technology and you can also get help from the peers!
+
+https://happy-learning.herokuapp.com/ 
+-->
+<a href="https://happy-learning.herokuapp.com/ " target="_blank"><img alt="Join Slack" height="40" width="139" src="http://i.imgur.com/0Lne5Vr.png"/></a>
+<div>
+	<h1>Adding Game</h1>
+
+	<p id="demo">In this lecture, we will cover the game to add 2 numbers.</p>
+</div>
+<hr> 
+
+<div class="quiz">
+  <div class="quiz-content"> 
+    <div class="question"> What is the sum of <span class="text-info" id="field1">5</span> and <span class="text-info" id = "field2">5</span> ? </div>
+
+  </div class = "option">
+  <div class="fields animated zoomIn" >
+    <div class="field-block" id="option1"> 10</div>
+  </div>
+  <div class="fields" >
+    <div class="field-block" id="option2"> 10</div>
+  </div>
+  <div class="fields" >
+    <div class="field-block" id="option3"> 10</div>
+  </div>
+  <div class="fields animated zoomInds" >
+    <div class="field-block" id="option4"> 10</div>
+  </div>
+  <hr>
+  <div class="play-agin">
+    <a class="button">Play Again</a>
+  </div>
+
+  </div>
+
+</div>
+
+<script>
+
+//let's write our script here!
+let riddle = {};
+
+//Generate random number
+function random(min, max){
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function playGame(){
+  let fieldOne = random(20,50);
+  let fieldTwo = random(20,50);
+  let sum = fieldOne + fieldTwo;
+  let array = generateRandomOptions(sum);
+  array.push(sum)
+
+
+  riddle = {
+    fieldOne: fieldOne,
+    fieldTwo: fieldTwo,
+    options: array,
+    answer: 11
+  };
+
+  document.getElementById("field1").innerHTML = riddle.fieldOne;
+  document.getElementById("field2").innerHTML = riddle["fieldTwo"];
+
+  document.getElementById("option1").innerHTML = array[0];
+  document.getElementById("option2").innerHTML = array[1];
+  document.getElementById("option3").innerHTML = array[2];
+  document.getElementById("option4").innerHTML = array[3];
+
+
+  console.log(fieldOne, fieldTwo);
+}
+
+function generateRandomOptions(sum){
+  let resultArray = [];
+  let randomNumberArray = [];
+  
+  while(randomNumberArray.length < 3){
+    let randomNum = random(1,10);
+    if(randomNumberArray.indexOf(randomNumberArray) > -1) 
+      continue;
+    randomNumberArray.push(randomNum);
+  }
+  console.log(randomNumberArray );
+
+  for(var i = 0 ; i < 3 ; i++){
+    let addSubtract = random(1,10);
+    let result = sum;
+    
+    if(addSubtract === 1){
+      //add radom number to the result
+      result += randomNumberArray[0];
+    } else{ 
+      // subtract random number from hte result
+      result -= randomNumberArray[0];
+    }
+    resultArray.push(push);
+  }
+
+  return resultArray;
+}
+
+
+
+	
+</script>
+
+</body>
+</html>

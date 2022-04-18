@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+}
+
+body {
+    background: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: #ffff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+.search:focus {
+    outline: 0;
+    background-color: var(--primary-color);
+}
+
+.search::placeholder {
+    color: #7378c5;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--secondary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-detail {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.05rem;
+}
+
+.movie-detail h3 {
+    margin-top: 0ch;
+}
+
+.movie-detail span {
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-detail span.green {
+    color: lightgreen;
+}
+.movie-detail span.orange {
+    color: orange;
+}
+.movie-detail span.red {
+    color: red;
+}
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffff;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
+
+#tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.tag {
+    color: white;
+    padding: 10px 15px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    margin: 10px;
+    display: inline;
+    cursor: pointer;
+}
+
+.tag.highlight {
+    background-color: lightsalmon;
+}
+
+.no-results {
+    color: white;
+}
+
+.pagination {
+    color: white;
+    display: flex;
+    margin: 10px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.page.disable {
+    cursor: not-allowed;
+    color: grey;
+}
