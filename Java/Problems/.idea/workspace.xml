@@ -23,6 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/CompresionString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/FriendNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/BuyAndSellStockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" afterDir="false" />
@@ -31,110 +35,9 @@
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/architecture-components-samples" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/architecture-components-samples" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Problems.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/LeetCode/AddTwoNumbers/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/LeetCode/AddTwoNumbers/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/LeetCode/LongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/LeetCode/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/LeetCode/AddTwoNumbers/AddTwoNumbersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/LeetCode/LongestSubstringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/LeetCode/TwoSumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/kotlin/main/META-INF/Problems.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/classes/kotlin/test/META-INF/Problems.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileKotlin/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/LeetCode/AddTwoNumbers/AddTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/LeetCode/AddTwoNumbers/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/LeetCode/LongestSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/LeetCode/TwoSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/LeetCode/AddTwoNumbers/AddTwoNumbersTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/LeetCode/LongestSubstringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/LeetCode/TwoSumTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" afterDir="false" />
@@ -163,6 +66,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -181,35 +92,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/LeetCode" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.LongestSubstringTest">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="LeetCode" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BuyAndSellStockTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Problems.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LongestSubstringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LeetCode.LongestSubstringTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -229,6 +132,21 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="BuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.BuyAndSellStockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LongestSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
@@ -262,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuyAndSellStockTest" />
         <item itemvalue="JUnit.LongestSubstringTest" />
         <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="Gradle.TwoSumTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.LongestSubstringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -291,27 +209,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="263" key="GridCell.Tab.0.bottom" timestamp="1651508528901">
-      <screen x="0" y="25" width="1920" height="981" />
+    <state width="1878" height="407" key="GridCell.Tab.0.bottom" timestamp="1651781276616">
+      <screen x="0" y="25" width="1920" height="978" />
     </state>
-    <state width="1878" height="263" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508528901" />
-    <state width="1878" height="263" key="GridCell.Tab.0.center" timestamp="1651508528901">
-      <screen x="0" y="25" width="1920" height="981" />
+    <state width="1878" height="407" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
+    <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844176" />
+    <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
+    <state width="1878" height="407" key="GridCell.Tab.0.center" timestamp="1651781276615">
+      <screen x="0" y="25" width="1920" height="978" />
     </state>
-    <state width="1878" height="263" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508528901" />
-    <state width="1878" height="263" key="GridCell.Tab.0.left" timestamp="1651508528900">
-      <screen x="0" y="25" width="1920" height="981" />
+    <state width="1878" height="407" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276615" />
+    <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
+    <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
+    <state width="1878" height="407" key="GridCell.Tab.0.left" timestamp="1651781276615">
+      <screen x="0" y="25" width="1920" height="978" />
     </state>
-    <state width="1878" height="263" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508528900" />
-    <state width="1878" height="263" key="GridCell.Tab.0.right" timestamp="1651508528901">
-      <screen x="0" y="25" width="1920" height="981" />
+    <state width="1878" height="407" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276615" />
+    <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
+    <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614265" />
+    <state width="1878" height="407" key="GridCell.Tab.0.right" timestamp="1651781276616">
+      <screen x="0" y="25" width="1920" height="978" />
     </state>
-    <state width="1878" height="263" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508528901" />
-    <state x="469" y="151" key="SettingsEditor" timestamp="1651508599214">
-      <screen x="0" y="25" width="1920" height="981" />
+    <state width="1878" height="407" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
+    <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
+    <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
+    <state x="469" y="151" key="SettingsEditor" timestamp="1651780628851">
+      <screen x="0" y="25" width="1920" height="978" />
     </state>
+    <state x="469" y="151" key="SettingsEditor/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780628851" />
     <state x="469" y="151" key="SettingsEditor/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508599214" />
+    <state x="757" y="296" key="chooseDestDirectoryDialog" timestamp="1651780181138">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state x="757" y="296" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181138" />
+    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1651780181184">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181184" />
+    <state x="626" y="240" key="search.everywhere.popup" timestamp="1651780788907">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state x="626" y="240" key="search.everywhere.popup/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780788907" />
   </component>
 </project>
