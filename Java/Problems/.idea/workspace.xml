@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/CompresionString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/FriendNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/BuyAndSellStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ContainsDuplicate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ContainsDuplicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ValidAnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ValidPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Others/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ContainsDuplicateTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" afterDir="false" />
@@ -35,9 +40,22 @@
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/architecture-components-samples" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/architecture-components-samples" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/BuyAndSellStockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/BuyAndSellStockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" afterDir="false" />
@@ -69,6 +87,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -101,39 +120,15 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="LeetCode" />
+      <recent name="Others" />
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuyAndSellStockTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LeetCode.TwoSumTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
+    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +137,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.BuyAndSellStockTest" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidAnagramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidAnagramTest.aacc_and_ccac_are_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
       <extension name="coverage">
         <pattern>
@@ -157,13 +152,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestSubstringTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidAnagramTest" />
+      <option name="METHOD_NAME" value="aacc_and_ccac_are_invalid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
       <extension name="coverage">
         <pattern>
@@ -172,19 +168,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TwoSumTest" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidPalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindromeTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidPalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindromeTest.isPalindrome_race_a_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidPalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome_race_a_car" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuyAndSellStockTest" />
-        <item itemvalue="JUnit.LongestSubstringTest" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="Gradle.TwoSumTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ValidPalindromeTest" />
+        <item itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
+        <item itemvalue="JUnit.ValidPalindromeTest.isPalindrome_race_a_car" />
+        <item itemvalue="JUnit.ValidAnagramTest" />
+        <item itemvalue="JUnit.ValidAnagramTest.aacc_and_ccac_are_invalid" />
       </list>
     </recent_temporary>
   </component>
@@ -212,43 +240,85 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="407" key="GridCell.Tab.0.bottom" timestamp="1651781276616">
+    <state x="100" y="125" width="1720" height="778" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1652889501329">
       <screen x="0" y="25" width="1920" height="978" />
     </state>
-    <state width="1878" height="407" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
-    <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844176" />
+    <state x="100" y="125" width="1720" height="778" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652889501329" />
+    <state x="699" y="301" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1652835902350">
+      <screen x="0" y="25" width="1920" height="978" />
+    </state>
+    <state x="699" y="301" key="#com.intellij.ide.util.TreeClassChooserDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652835902350" />
+    <state width="1750" height="378" key="GridCell.Tab.0.bottom" timestamp="1653962142935">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
+    <state width="1878" height="407" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141409" />
     <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-    <state width="1878" height="407" key="GridCell.Tab.0.center" timestamp="1651781276615">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state width="1878" height="209" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816166" />
+    <state width="1750" height="378" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142935" />
+    <state width="1750" height="378" key="GridCell.Tab.0.center" timestamp="1653962142935">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="407" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276615" />
-    <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
+    <state width="1878" height="324" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
+    <state width="1878" height="407" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141408" />
     <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-    <state width="1878" height="407" key="GridCell.Tab.0.left" timestamp="1651781276615">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state width="1878" height="209" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816166" />
+    <state width="1750" height="378" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142935" />
+    <state width="1750" height="378" key="GridCell.Tab.0.left" timestamp="1653962142934">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="407" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276615" />
-    <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
+    <state width="1878" height="324" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
+    <state width="1878" height="407" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141407" />
     <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614265" />
-    <state width="1878" height="407" key="GridCell.Tab.0.right" timestamp="1651781276616">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state width="1878" height="209" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816165" />
+    <state width="1750" height="378" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142934" />
+    <state width="1750" height="378" key="GridCell.Tab.0.right" timestamp="1653962142935">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="407" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
-    <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
+    <state width="1878" height="324" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
+    <state width="1878" height="407" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141408" />
     <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
+    <state width="1878" height="209" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816166" />
+    <state width="1750" height="378" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142935" />
+    <state width="1878" height="326" key="GridCell.Tab.1.bottom" timestamp="1653848811387">
+      <screen x="0" y="25" width="1920" height="984" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
+    <state width="1878" height="326" key="GridCell.Tab.1.bottom/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811387" />
+    <state width="1878" height="326" key="GridCell.Tab.1.center" timestamp="1653848811386">
+      <screen x="0" y="25" width="1920" height="984" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
+    <state width="1878" height="326" key="GridCell.Tab.1.center/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811386" />
+    <state width="1878" height="326" key="GridCell.Tab.1.left" timestamp="1653848811385">
+      <screen x="0" y="25" width="1920" height="984" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
+    <state width="1878" height="326" key="GridCell.Tab.1.left/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811385" />
+    <state width="1878" height="326" key="GridCell.Tab.1.right" timestamp="1653848811386">
+      <screen x="0" y="25" width="1920" height="984" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
+    <state width="1878" height="326" key="GridCell.Tab.1.right/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811386" />
     <state x="469" y="151" key="SettingsEditor" timestamp="1651780628851">
       <screen x="0" y="25" width="1920" height="978" />
     </state>
     <state x="469" y="151" key="SettingsEditor/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780628851" />
     <state x="469" y="151" key="SettingsEditor/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508599214" />
-    <state x="757" y="296" key="chooseDestDirectoryDialog" timestamp="1651780181138">
+    <state x="757" y="298" key="chooseDestDirectoryDialog" timestamp="1653847330788">
+      <screen x="0" y="25" width="1920" height="984" />
+    </state>
+    <state x="757" y="296" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652889087185" />
+    <state x="757" y="298" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653847330788" />
+    <state x="740" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653847330835">
+      <screen x="0" y="25" width="1920" height="984" />
+    </state>
+    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652889087238" />
+    <state x="740" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653847330835" />
+    <state x="739" y="340" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1652836690039">
       <screen x="0" y="25" width="1920" height="978" />
     </state>
-    <state x="757" y="296" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181138" />
-    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1651780181184">
-      <screen x="0" y="25" width="1920" height="978" />
-    </state>
-    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181184" />
+    <state x="739" y="340" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652836690039" />
     <state x="626" y="240" key="search.everywhere.popup" timestamp="1651780788907">
       <screen x="0" y="25" width="1920" height="978" />
     </state>
