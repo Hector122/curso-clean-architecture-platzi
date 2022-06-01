@@ -1,3 +1,12 @@
 [submodule "andfun-kotlin-guess-it"]
 	path = andfun-kotlin-guess-it
 	url = git@github.com:Hector122/andfun-kotlin-guess-it.git
+[submodule "Android/Nanodegree/android-kotlin-geo-fences"]
+	path = Android/Nanodegree/android-kotlin-geo-fences
+	url = git@github.com:Hector122/android-kotlin-geo-fences.git
+[submodule "Android/Nanodegree/andfun-kotlin-mars-real-estate"]
+	path = Android/Nanodegree/andfun-kotlin-mars-real-estate
+	url = git@github.com:Hector122/andfun-kotlin-mars-real-estate.git
+[submodule "Android/Nanodegree/android-kotlin-animation-property-animation"]
+	path = Android/Nanodegree/android-kotlin-animation-property-animation
+	url = git@github.com:Hector122/android-kotlin-animation-property-animation.git
