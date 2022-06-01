@@ -10,3 +10,27 @@
 [submodule "Android/Nanodegree/android-kotlin-animation-property-animation"]
 	path = Android/Nanodegree/android-kotlin-animation-property-animation
 	url = git@github.com:Hector122/android-kotlin-animation-property-animation.git
+[submodule "Android/Nanodegree/android-kotlin-login"]
+	path = Android/Nanodegree/android-kotlin-login
+	url = git@github.com:Hector122/android-kotlin-login.git
+[submodule "Android/Nanodegree/android-kotlin-notifications"]
+	path = Android/Nanodegree/android-kotlin-notifications
+	url = git@github.com:Hector122/android-kotlin-notifications.git
+[submodule "Android/Nanodegree/android-kotlin-notifications-fcm"]
+	path = Android/Nanodegree/android-kotlin-notifications-fcm
+	url = git@github.com:Hector122/android-kotlin-notifications-fcm.git
+[submodule "Android/Nanodegree/android-testing"]
+	path = Android/Nanodegree/android-testing
+	url = git@github.com:Hector122/android-testing.git
+[submodule "Android/Nanodegree/motionlayout"]
+	path = Android/Nanodegree/motionlayout
+	url = git@github.com:Hector122/motionlayout.git
+[submodule "Android/Nanodegree/nd940-android-kotlin-course1-starter"]
+	path = Android/Nanodegree/nd940-android-kotlin-course1-starter
+	url = git@github.com:Hector122/nd940-android-kotlin-course1-starter.git
+[submodule "Android/Nanodegree/nd940-c3-advanced-android-programming-project-starter"]
+	path = Android/Nanodegree/nd940-c3-advanced-android-programming-project-starter
+	url = git@github.com:Hector122/nd940-c3-advanced-android-programming-project-starter.git
+[submodule "Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter"]
+	path = Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter
+	url = git@github.com:Hector122/nd940-cap-advanced-android-programming-project-starter.git
