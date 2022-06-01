@@ -1,0 +1,3 @@
+[submodule "andfun-kotlin-guess-it"]
+	path = andfun-kotlin-guess-it
+	url = git@github.com:Hector122/andfun-kotlin-guess-it.git
