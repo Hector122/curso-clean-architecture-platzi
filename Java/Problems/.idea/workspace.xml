@@ -23,26 +23,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/CompresionString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Others/FriendNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/BuyAndSellStockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-android-kotlin-course1-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-android-kotlin-course1-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-c3-advanced-android-programming-project-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-c3-advanced-android-programming-project-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/architecture-components-samples" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/architecture-components-samples" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/tracks" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/tracks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/Udemy/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/Udemy/blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/BuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/BuyAndSellStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/LongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/CompresionString.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/CompresionString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/FriendNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/FriendNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/AddTwoNumbers/AddTwoNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/AddTwoNumbers/AddTwoNumbersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/BuyAndSellStockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/BuyAndSellStockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/LongestSubstringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/LongestSubstringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/TwoSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/TwoSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +103,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/LeetCode" />
@@ -100,39 +112,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Others" />
       <recent name="LeetCode" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuyAndSellStockTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LeetCode.TwoSumTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.NextGreaterNumberWithSameDigitsTest">
     <configuration name="BuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
       <extension name="coverage">
@@ -163,32 +150,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Problems.test" />
+    <configuration name="NextGreaterNumberWithSameDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="Others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.TwoSumTest" />
+      <option name="PACKAGE_NAME" value="Others" />
+      <option name="MAIN_CLASS_NAME" value="Others.NextGreaterNumberWithSameDigitsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterNumberWithSameDigitsTest.solution_input_218765_output_251678" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Others" />
+      <option name="MAIN_CLASS_NAME" value="Others.NextGreaterNumberWithSameDigitsTest" />
+      <option name="METHOD_NAME" value="solution_input_218765_output_251678" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterNumberWithSameDigitsTest.solution_input_4321_output_noPossible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Others" />
+      <option name="MAIN_CLASS_NAME" value="Others.NextGreaterNumberWithSameDigitsTest" />
+      <option name="METHOD_NAME" value="solution_input_4321_output_noPossible" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NextGreaterNumberWithSameDigitsTest" />
+        <item itemvalue="JUnit.NextGreaterNumberWithSameDigitsTest.solution_input_218765_output_251678" />
+        <item itemvalue="JUnit.NextGreaterNumberWithSameDigitsTest.solution_input_4321_output_noPossible" />
         <item itemvalue="JUnit.BuyAndSellStockTest" />
         <item itemvalue="JUnit.LongestSubstringTest" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="Gradle.TwoSumTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="" />
@@ -204,38 +238,63 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="407" key="GridCell.Tab.0.bottom" timestamp="1651781276616">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state x="576" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1653756057983">
+      <screen x="0" y="0" width="1824" height="1080" />
+    </state>
+    <state x="576" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1824.1080@0.0.1824.1080" timestamp="1653756057983" />
+    <state width="868" height="297" key="GridCell.Tab.0.bottom" timestamp="1653760638104">
+      <screen x="0" y="0" width="1824" height="1080" />
     </state>
     <state width="1878" height="407" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
     <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844176" />
     <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-    <state width="1878" height="407" key="GridCell.Tab.0.center" timestamp="1651781276615">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state width="868" height="297" key="GridCell.Tab.0.bottom/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
+    <state width="868" height="297" key="GridCell.Tab.0.center" timestamp="1653760638104">
+      <screen x="0" y="0" width="1824" height="1080" />
     </state>
     <state width="1878" height="407" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276615" />
     <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
     <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-    <state width="1878" height="407" key="GridCell.Tab.0.left" timestamp="1651781276615">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state width="868" height="297" key="GridCell.Tab.0.center/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
+    <state width="868" height="297" key="GridCell.Tab.0.left" timestamp="1653760638104">
+      <screen x="0" y="0" width="1824" height="1080" />
     </state>
     <state width="1878" height="407" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276615" />
     <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
     <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614265" />
-    <state width="1878" height="407" key="GridCell.Tab.0.right" timestamp="1651781276616">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state width="868" height="297" key="GridCell.Tab.0.left/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
+    <state width="868" height="297" key="GridCell.Tab.0.right" timestamp="1653760638104">
+      <screen x="0" y="0" width="1824" height="1080" />
     </state>
     <state width="1878" height="407" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
     <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844175" />
     <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
+    <state width="868" height="297" key="GridCell.Tab.0.right/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
+    <state width="868" height="358" key="GridCell.Tab.1.bottom" timestamp="1653760256757">
+      <screen x="0" y="0" width="1824" height="1080" />
+    </state>
+    <state width="868" height="358" key="GridCell.Tab.1.bottom/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
+    <state width="868" height="358" key="GridCell.Tab.1.center" timestamp="1653760256757">
+      <screen x="0" y="0" width="1824" height="1080" />
+    </state>
+    <state width="868" height="358" key="GridCell.Tab.1.center/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
+    <state width="868" height="358" key="GridCell.Tab.1.left" timestamp="1653760256757">
+      <screen x="0" y="0" width="1824" height="1080" />
+    </state>
+    <state width="868" height="358" key="GridCell.Tab.1.left/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
+    <state width="868" height="358" key="GridCell.Tab.1.right" timestamp="1653760256757">
+      <screen x="0" y="0" width="1824" height="1080" />
+    </state>
+    <state width="868" height="358" key="GridCell.Tab.1.right/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
     <state x="469" y="151" key="SettingsEditor" timestamp="1651780628851">
       <screen x="0" y="25" width="1920" height="978" />
     </state>
@@ -245,10 +304,15 @@
       <screen x="0" y="25" width="1920" height="978" />
     </state>
     <state x="757" y="296" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181138" />
-    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1651780181184">
-      <screen x="0" y="25" width="1920" height="978" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1653908879567">
+      <screen x="0" y="0" width="1824" height="1080" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1824.1080@0.0.1824.1080" timestamp="1653908879567" />
+    <state x="703" y="348" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653758803745">
+      <screen x="0" y="0" width="1824" height="1080" />
     </state>
     <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181184" />
+    <state x="703" y="348" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1824.1080@0.0.1824.1080" timestamp="1653758803745" />
     <state x="626" y="240" key="search.everywhere.popup" timestamp="1651780788907">
       <screen x="0" y="25" width="1920" height="978" />
     </state>
