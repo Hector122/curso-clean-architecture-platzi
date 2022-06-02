@@ -22,22 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-login" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-android-kotlin-course1-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-android-kotlin-course1-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-c3-advanced-android-programming-project-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-c3-advanced-android-programming-project-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/nd940-cap-advanced-android-programming-project-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/architecture-components-samples" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/architecture-components-samples" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/course-dagger/dependency-injection-in-android-course" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/blog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/food" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/rn-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/tracks" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/CourseReacAndHooks/tracks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../React-native/Udemy/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../../React-native/Udemy/blog" afterDir="false" />
-    </list>
+    <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
