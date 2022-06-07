@@ -1,6 +1,3 @@
-[submodule "andfun-kotlin-guess-it"]
-	path = andfun-kotlin-guess-it
-	url = git@github.com:Hector122/andfun-kotlin-guess-it.git
 [submodule "Android/Nanodegree/android-kotlin-geo-fences"]
 	path = Android/Nanodegree/android-kotlin-geo-fences
 	url = git@github.com:Hector122/android-kotlin-geo-fences.git
@@ -36,7 +33,4 @@
 	url = git@github.com:Hector122/nd940-cap-advanced-android-programming-project-starter.git
 [submodule "Android/Nanodegree/andfun-kotlin-guess-it"]
 	path = Android/Nanodegree/andfun-kotlin-guess-it
-	url = git@github.com:Hector122/andfun-kotlin-guess-it.git
-[submodule "Android/Nanodegree/Android/Nanodegree/andfun-kotlin-guess-it"]
-	path = Android/Nanodegree/Android/Nanodegree/andfun-kotlin-guess-it
 	url = git@github.com:Hector122/andfun-kotlin-guess-it.git
