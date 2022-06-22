@@ -33,7 +33,7 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         //Add it here
-        buildConfigField "String", "NASA_API_KEY", "$'myApiNasa'"
+        buildConfigField "String", "NASA_API_KEY", "${myApiNasa}"
     }
     buildTypes {
         release {

@@ -1,7 +1,7 @@
 package LeetCode;
 
-import jdk.jfr.Description;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,7 +15,7 @@ class ValidPalindromeTest {
     }
 
     @Test
-    @Description("A man, a plan, a canal: Panama")
+    @DisplayName("A man, a plan, a canal: Panama")
     void isPalindrome() {
         //given
         String str = "A man, a plan, a canal: Panama";
@@ -28,7 +28,7 @@ class ValidPalindromeTest {
     }
 
     @Test
-    @Description("race a car")
+    @DisplayName("race a car")
     void isPalindrome_race_a_car() {
         //given
         String str = "race a car";
@@ -41,7 +41,7 @@ class ValidPalindromeTest {
     }
 
     @Test
-    @Description(" ")
+    @DisplayName(" ")
     void isPalindrome_space() {
         //given
         String str = " ";
