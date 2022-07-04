@@ -4,9 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.lifecycleScope
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.collect
 import kotlin.system.measureTimeMillis
 
 class MainActivity : AppCompatActivity() {
@@ -19,13 +23,30 @@ class MainActivity : AppCompatActivity() {
 
         Log.i(TAG, "main fun init")
 
+        val viewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
+
+        buttonRun.setOnClickListener {
+            viewModel.startProgressbar()
+        }
+
+        buttonCancel.setOnClickListener {
+            viewModel.restartProgressbar()
+        }
+
+// entender esta parte
+        lifecycleScope.launchWhenStarted {
+            viewModel.progressBar.collect {
+                progressBar.progress = it
+            }
+        }
+
         // runCoroutinesWithJob()
         //runAsyncCoroutines()
         //runWithRunBlocking()
         //showTextInMainDispatcher()
-       // runTwoCoroutinesInParallel();
+        // runTwoCoroutinesInParallel();
         //runTwoCoroutinesInParallelWithAsync()
-        runCoroutineScope()
+        // runCoroutineScope()
     }
 
     private suspend fun getInfoForInternet(): String {
@@ -38,10 +59,10 @@ class MainActivity : AppCompatActivity() {
         return "Response from internet $int"
     }
 
-    private fun runCoroutineScope(){
+    private fun runCoroutineScope() {
         buttonRun.setOnClickListener {
             lifecycleScope.launch {
-                while (true){
+                while (true) {
                     delay(1000)
                     Log.i(TAG, "Coroutine running...")
                 }
