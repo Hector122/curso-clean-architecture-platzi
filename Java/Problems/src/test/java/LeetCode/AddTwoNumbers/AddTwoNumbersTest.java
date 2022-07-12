@@ -1,11 +1,8 @@
 package LeetCode.AddTwoNumbers;
 
+import LeetCode.LinkedList.AddTwoNumbers;
+import LeetCode.LinkedList.ListNode;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
-
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class AddTwoNumbersTest {
     /* Your input

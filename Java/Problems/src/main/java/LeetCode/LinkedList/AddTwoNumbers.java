@@ -1,4 +1,4 @@
-package LeetCode.AddTwoNumbers;
+package LeetCode.LinkedList;
 
 public class AddTwoNumbers {
     /**
