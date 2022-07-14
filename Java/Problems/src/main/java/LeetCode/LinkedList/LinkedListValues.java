@@ -1,11 +1,10 @@
 package LeetCode.LinkedList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class LinkedListValues {
 
-    public int [] iterative(ListNode head){
+    public int [] getArrayIterative(ListNode head){
         ArrayList<Integer> values = new ArrayList<>();
 
         while (head != null){
@@ -22,7 +21,7 @@ public class LinkedListValues {
     }
 
 
-    public int [] recursive(ListNode head){
+    public int [] getArrayRecursive(ListNode head){
         ArrayList<Integer> values = new ArrayList<>();
 
         fillValues(head, values);

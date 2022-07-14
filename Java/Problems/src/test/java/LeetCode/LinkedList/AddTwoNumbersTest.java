@@ -34,6 +34,6 @@ class AddTwoNumbersTest {
         ListNode response = solution.addTwoNumbers(l1a, l2a);
 
         //equal
-        assertArrayEquals(new int[]{7, 0, 8}, new LinkedListValues().iterative(response));
+        assertArrayEquals(new int[]{7, 0, 8}, new LinkedListValues().getArrayIterative(response));
     }
 }
