@@ -34,3 +34,6 @@
 [submodule "Android/Nanodegree/andfun-kotlin-guess-it"]
 	path = Android/Nanodegree/andfun-kotlin-guess-it
 	url = git@github.com:Hector122/andfun-kotlin-guess-it.git
+[submodule "Android/Nanodegree/andfun-kotlin-dessert-pusher"]
+	path = Android/Nanodegree/andfun-kotlin-dessert-pusher
+	url = git@github.com:Hector122/andfun-kotlin-dessert-pusher.git
