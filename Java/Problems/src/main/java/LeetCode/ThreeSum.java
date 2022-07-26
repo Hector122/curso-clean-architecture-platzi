@@ -1,0 +1,29 @@
+package LeetCode;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//https://leetcode.com/problems/3sum/
+public class ThreeSum {
+    public List<List<Integer>> threeSum(int[] nums) {
+
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 1; j < nums.length; j++) {
+                for (int k = 2; k < nums.length; k++) {
+
+                    if (nums[i] + nums[j] + nums[k] == 0 ) {
+                        List<Integer> list = new ArrayList<>();
+                        list.add(nums[i]);
+                        list.add(nums[j]);
+                        list.add(nums[k]);
+
+                        result.add(list);
+                    }
+                }
+            }
+        }
+        return result;
+    }
+}

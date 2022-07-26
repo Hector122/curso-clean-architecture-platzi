@@ -1,5 +1,6 @@
 package LeetCode.LinkedList;
 
+//https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 public class RemoveNthNodeFromEnd {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {

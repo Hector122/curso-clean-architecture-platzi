@@ -1,5 +1,6 @@
 package LeetCode.LinkedList;
 
+//https://leetcode.com/problems/add-two-numbers/
 public class AddTwoNumbers {
     /**
      * Definition for singly-linked list.
@@ -12,7 +13,7 @@ public class AddTwoNumbers {
      * }
      */
 
-    //https://leetcode.com/problems/add-two-numbers/
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
         ListNode l3 = head;
