@@ -37,3 +37,9 @@
 [submodule "Android/Nanodegree/andfun-kotlin-dessert-pusher"]
 	path = Android/Nanodegree/andfun-kotlin-dessert-pusher
 	url = git@github.com:Hector122/andfun-kotlin-dessert-pusher.git
+[submodule "Android/Platzi/clean-architecture-platzi"]
+	path = Android/Platzi/clean-architecture-platzi
+	url = git@github.com:Hector122/clean-architecture-platzi.git
+[submodule "Android/Platzi/curso-clean-architecture-platzi"]
+	path = Android/Platzi/curso-clean-architecture-platzi
+	url = git@github.com:Hector122/curso-clean-architecture-platzi.git

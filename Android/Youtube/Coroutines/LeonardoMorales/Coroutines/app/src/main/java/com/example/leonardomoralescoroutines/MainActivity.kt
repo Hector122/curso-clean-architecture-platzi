@@ -97,6 +97,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun runTwoCoroutinesInParallelWithLaunch() {
         GlobalScope.launch(Dispatchers.IO) {
+
+            val x = measureTimeMillis {
+                delay(1000)
+            }
+
+
+
             val time = measureTimeMillis {
                 var res1: String? = null
                 var res2: String? = null
