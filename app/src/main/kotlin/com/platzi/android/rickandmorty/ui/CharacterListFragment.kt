@@ -15,11 +15,9 @@ import com.platzi.android.rickandmorty.adapters.CharacterGridAdapter
 import com.platzi.android.rickandmorty.api.*
 import com.platzi.android.rickandmorty.api.APIConstants.BASE_API_URL
 import com.platzi.android.rickandmorty.databinding.FragmentCharacterListBinding
+import com.platzi.android.rickandmorty.presentation.CharacterListViewModel
 import com.platzi.android.rickandmorty.utils.setItemDecorationSpacing
 import com.platzi.android.rickandmorty.utils.showLongToast
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_character_list.*
 
 

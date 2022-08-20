@@ -6,6 +6,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()
         
     }
     dependencies {
@@ -21,6 +22,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
         
     }
 }
@@ -48,7 +50,7 @@ ext{
     mockitoKotlinVersion = '2.2.0'
     okHttpLoggingInterceptorVersion = '4.7.2'
     pagingVersion = '2.1.2'
-    reactiveStreamsVersion = '2.2.0'
+    reactiveStreamsVersion = '2.3.0'
     recyclerViewVersion = '1.1.0'
     retrofitVersion = '2.9.0'
     roomVersion = '2.4.0-alpha03'
