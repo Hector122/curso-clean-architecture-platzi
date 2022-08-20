@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:2:5-61
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:1-5:12
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		ADDED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
+		INJECTED from /Users/hector/Workspace/Courses/Android/Platzi/curso-clean-architecture-platzi/framework/requestmanager/src/main/AndroidManifest.xml
