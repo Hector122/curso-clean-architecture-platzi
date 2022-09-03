@@ -18,6 +18,7 @@ import com.platzi.android.rickandmorty.database.CharacterDatabase
 import com.platzi.android.rickandmorty.database.CharacterEntity
 import com.platzi.android.rickandmorty.databinding.FragmentFavoriteListBinding
 import com.platzi.android.rickandmorty.presentation.FavoriteListViewModel
+import com.platzi.android.rickandmorty.usecases.GetAllFavoriteUseCase
 import com.platzi.android.rickandmorty.utils.setItemDecorationSpacing
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -33,8 +34,13 @@ class FavoriteListFragment : Fragment() {
     private lateinit var characterRequest: CharacterRequest
     private lateinit var characterDao: CharacterDao
 
-    val viewModel: FavoriteListViewModel by lazy {
-        FavoriteListViewModel(characterDao)
+    private val getAllFavoriteUseCase: GetAllFavoriteUseCase by lazy {
+        GetAllFavoriteUseCase(characterDao)
+    }
+
+    private val viewModel: FavoriteListViewModel by lazy {
+        // FavoriteListViewModel(characterDao)
+        FavoriteListViewModel(getAllFavoriteUseCase)
     }
 
     //endregion

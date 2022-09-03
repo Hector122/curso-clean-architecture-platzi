@@ -6,6 +6,8 @@ import androidx.lifecycle.ViewModel
 import com.platzi.android.rickandmorty.api.*
 import com.platzi.android.rickandmorty.database.CharacterDao
 import com.platzi.android.rickandmorty.database.CharacterEntity
+import com.platzi.android.rickandmorty.usecases.GetAllFavoriteUseCase
+import com.platzi.android.rickandmorty.usecases.GetEpisodeFromCharacterUseCase
 import io.reactivex.Maybe
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -15,7 +17,7 @@ import io.reactivex.schedulers.Schedulers
 class CharacterDetailViewModel(
     private val character: CharacterServer?,
     private val characterDao: CharacterDao,
-    private val episodeRequest: EpisodeRequest
+    private val getEpisodeFromCharacterUseCase: GetEpisodeFromCharacterUseCase
 ) : ViewModel() {
 
     private val disposable = CompositeDisposable()
@@ -87,17 +89,19 @@ class CharacterDetailViewModel(
 
     private fun requestShowEpisodeList(episodeUrlList: List<String>) {
         disposable.add(
-            Observable.fromIterable(episodeUrlList)
-                .flatMap { episode: String ->
-                    episodeRequest.baseUrl = episode
-                    episodeRequest
-                        .getService<EpisodeService>()
-                        .getEpisode()
-                        .toObservable()
-                }
-                .toList()
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeOn(Schedulers.io())
+            // move to use case
+//            Observable.fromIterable(episodeUrlList)
+//                .flatMap { episode: String ->
+//                    episodeRequest.baseUrl = episode
+//                    episodeRequest
+//                        .getService<EpisodeService>()
+//                        .getEpisode()
+//                        .toObservable()
+//                }
+//                .toList()
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribeOn(Schedulers.io())
+            getEpisodeFromCharacterUseCase.invoke(episodeUrlList)
                 .doOnSubscribe {
                     //episodeProgressBar.isVisible = true
                     _events.value = Events(CharacterDetailNavigation.ShowEpisodeListLoading)
@@ -108,7 +112,8 @@ class CharacterDetailViewModel(
 //                        episodeProgressBar.isVisible = false
 //                        episodeListAdapter.updateData(episodeList)
                         _events.value = Events(CharacterDetailNavigation.HideEpisodeListLoading)
-                        _events.value = Events(CharacterDetailNavigation.ShowEpisodeList(episodeList))
+                        _events.value =
+                            Events(CharacterDetailNavigation.ShowEpisodeList(episodeList))
                     },
                     { error ->
 //                        episodeProgressBar.isVisible = false
@@ -121,7 +126,9 @@ class CharacterDetailViewModel(
 
     sealed class CharacterDetailNavigation {
         data class ShowEpisodeError(val error: Throwable) : CharacterDetailNavigation()
-        data class ShowEpisodeList(val episodeList: List<EpisodeServer>) : CharacterDetailNavigation()
+        data class ShowEpisodeList(val episodeList: List<EpisodeServer>) :
+            CharacterDetailNavigation()
+
         object CloseActivity : CharacterDetailNavigation()
         object HideEpisodeListLoading : CharacterDetailNavigation()
         object ShowEpisodeListLoading : CharacterDetailNavigation()
