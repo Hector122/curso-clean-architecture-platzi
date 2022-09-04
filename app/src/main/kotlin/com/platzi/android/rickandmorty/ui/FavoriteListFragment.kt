@@ -103,6 +103,7 @@ class FavoriteListFragment : Fragment() {
                         tvEmptyListMessage.isVisible = true
                         favoriteListAdapter.updateData(emptyList())
                     }
+                    else -> {}
                 }
             }
         })
