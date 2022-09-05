@@ -6,6 +6,8 @@ import androidx.lifecycle.ViewModel
 import com.platzi.android.rickandmorty.api.*
 import com.platzi.android.rickandmorty.database.CharacterDao
 import com.platzi.android.rickandmorty.database.CharacterEntity
+import com.platzi.android.rickandmorty.domain.Character
+import com.platzi.android.rickandmorty.domain.Episode
 import com.platzi.android.rickandmorty.usecases.GetAllFavoriteUseCase
 import com.platzi.android.rickandmorty.usecases.GetEpisodeFromCharacterUseCase
 import com.platzi.android.rickandmorty.usecases.GetFavoriteCharacterStatusUseCase
@@ -17,7 +19,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
 class CharacterDetailViewModel(
-    private val character: CharacterServer?,
+    private val character: Character?,
     private val getFavoriteCharacterStatusUseCase: GetFavoriteCharacterStatusUseCase,
     private val updateFavoriteCharacterStatusUseCase: UpdateFavoriteCharacterStatusUseCase,
     private val getEpisodeFromCharacterUseCase: GetEpisodeFromCharacterUseCase
@@ -25,8 +27,8 @@ class CharacterDetailViewModel(
 
     private val disposable = CompositeDisposable()
 
-    private val _characterValidations = MutableLiveData<CharacterServer>()
-    val characterValidations: LiveData<CharacterServer> get() = _characterValidations
+    private val _characterValidations = MutableLiveData<Character>()
+    val characterValidations: LiveData<Character> get() = _characterValidations
 
     private val _isFavorite = MutableLiveData<Boolean>()
     val isFavorite: LiveData<Boolean> get() = _isFavorite
@@ -53,9 +55,10 @@ class CharacterDetailViewModel(
 
 
     fun onUpdateFavoriteCharacterStatus() {
-        val characterEntity: CharacterEntity = character!!.toCharacterEntity()
+        //val characterEntity: CharacterEntity = character!!.toCharacterEntity()
         disposable.add(
-           updateFavoriteCharacterStatusUseCase.invoke(characterEntity)
+           //updateFavoriteCharacterStatusUseCase.invoke(characterEntity)
+            updateFavoriteCharacterStatusUseCase.invoke(character!!)
                 .subscribe { isFavorite ->
                     _isFavorite.value = isFavorite
                     //updateFavoriteIcon(isFavorite)
@@ -119,7 +122,7 @@ class CharacterDetailViewModel(
 
     sealed class CharacterDetailNavigation {
         data class ShowEpisodeError(val error: Throwable) : CharacterDetailNavigation()
-        data class ShowEpisodeList(val episodeList: List<EpisodeServer>) :
+        data class ShowEpisodeList(val episodeList: List<Episode>) :
             CharacterDetailNavigation()
 
         object CloseActivity : CharacterDetailNavigation()

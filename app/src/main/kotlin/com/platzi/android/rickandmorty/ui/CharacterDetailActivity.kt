@@ -14,6 +14,9 @@ import com.platzi.android.rickandmorty.api.EpisodeRequest
 import com.platzi.android.rickandmorty.database.CharacterDao
 import com.platzi.android.rickandmorty.database.CharacterDatabase
 import com.platzi.android.rickandmorty.databinding.ActivityCharacterDetailBinding
+import com.platzi.android.rickandmorty.domain.Character
+import com.platzi.android.rickandmorty.parcelable.CharacterParcelable
+import com.platzi.android.rickandmorty.parcelable.toCharacterDomain
 import com.platzi.android.rickandmorty.presentation.CharacterDetailViewModel
 import com.platzi.android.rickandmorty.presentation.Events
 import com.platzi.android.rickandmorty.usecases.GetEpisodeFromCharacterUseCase
@@ -56,7 +59,7 @@ class CharacterDetailActivity : AppCompatActivity() {
     private val viewModel: CharacterDetailViewModel by lazy {
         getViewModel {
             CharacterDetailViewModel(
-                intent.getParcelableExtra(Constants.EXTRA_CHARACTER),
+                intent.getParcelableExtra<CharacterParcelable>(Constants.EXTRA_CHARACTER)?.toCharacterDomain(),
                 //characterDao,
                 getFavoriteCharacterStatusUseCase,
                 updateFavoriteCharacterStatusUseCase,
@@ -104,7 +107,7 @@ class CharacterDetailActivity : AppCompatActivity() {
     //endregion
 
     //region Private Methods
-    private fun loadCharacter(character: CharacterServer) {
+    private fun loadCharacter(character: Character) {
         binding.characterImage.bindCircularImageUrl(
             url = character!!.image,
             placeholder = R.drawable.ic_camera_alt_black,
