@@ -1,14 +1,20 @@
 package com.platzi.android.rickandmorty.usecases
 
 import com.platzi.android.rickandmorty.api.*
+import com.platzi.android.rickandmorty.data.CharacterRepository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
-class GetAllCharactersUseCase(private val characterRequest: CharacterRequest) {
-    fun invoke(currentPage: Int) = characterRequest
-        .getService<CharacterService>()
-        .getAllCharacters(currentPage)
-        .map(CharacterResponseServer::toCharacterDomainList)
-        .observeOn(AndroidSchedulers.mainThread())
-        .subscribeOn(Schedulers.io())
+class GetAllCharactersUseCase(
+    //private val characterRequest: CharacterRequest
+private val characterRepository: CharacterRepository
+) {
+//    fun invoke(currentPage: Int) = characterRequest
+//        .getService<CharacterService>()
+//        .getAllCharacters(currentPage)
+//        .map(CharacterResponseServer::toCharacterDomainList)
+//        .observeOn(AndroidSchedulers.mainThread())
+//        .subscribeOn(Schedulers.io())
+
+    fun invoke(currentPage: Int) = characterRepository.getAllCharacters(currentPage)
 }

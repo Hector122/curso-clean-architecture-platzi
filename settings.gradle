@@ -1,3 +1,5 @@
 rootProject.name='RickAndMortyPlatzi'
 include ':app'
+include ':domainOld'
+include ':data'
 include ':domain'

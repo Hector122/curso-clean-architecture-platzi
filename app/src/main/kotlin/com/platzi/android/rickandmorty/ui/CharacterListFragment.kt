@@ -14,6 +14,11 @@ import com.platzi.android.rickandmorty.R
 import com.platzi.android.rickandmorty.adapters.CharacterGridAdapter
 import com.platzi.android.rickandmorty.api.*
 import com.platzi.android.rickandmorty.api.APIConstants.BASE_API_URL
+import com.platzi.android.rickandmorty.data.CharacterRepository
+import com.platzi.android.rickandmorty.data.LocalCharacterDataSource
+import com.platzi.android.rickandmorty.data.RemoteCharacterDataSource
+import com.platzi.android.rickandmorty.database.CharacterDatabase
+import com.platzi.android.rickandmorty.database.CharacterRoomDataSource
 import com.platzi.android.rickandmorty.databinding.FragmentCharacterListBinding
 import com.platzi.android.rickandmorty.domain.Character
 import com.platzi.android.rickandmorty.presentation.CharacterListViewModel
@@ -29,10 +34,26 @@ class CharacterListFragment : Fragment() {
 
     private lateinit var characterGridAdapter: CharacterGridAdapter
     private lateinit var listener: OnCharacterListFragmentListener
-    private lateinit var characterRequest: CharacterRequest
+
+    private val characterRequest: CharacterRequest by lazy {
+        CharacterRequest(BASE_API_URL)
+    }
+
+    private val localCharacterDataSource: LocalCharacterDataSource by lazy {
+        CharacterRoomDataSource(CharacterDatabase.getDatabase(activity!!.applicationContext))
+    }
+
+    private val remoteCharacterDataSource: RemoteCharacterDataSource by lazy {
+        CharacterRetrofitDataSource(characterRequest)
+    }
+
+    private val characterRepository: CharacterRepository by lazy{
+        CharacterRepository(remoteCharacterDataSource, localCharacterDataSource )
+    }
 
     private val getAllCharactersUseCase: GetAllCharactersUseCase by lazy {
-        GetAllCharactersUseCase(characterRequest)
+        // GetAllCharactersUseCase(characterRequest)
+        GetAllCharactersUseCase(characterRepository)
     }
 
     private val viewModel: CharacterListViewModel by lazy {
@@ -78,7 +99,7 @@ class CharacterListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        characterRequest = CharacterRequest(BASE_API_URL)
+       // characterRequest = CharacterRequest(BASE_API_URL)
 
         return DataBindingUtil.inflate<FragmentCharacterListBinding>(
             inflater,
