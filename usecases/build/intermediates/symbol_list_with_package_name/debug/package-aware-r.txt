@@ -1,1 +1,0 @@
-com.platzi.android.rickandmorty.usecases

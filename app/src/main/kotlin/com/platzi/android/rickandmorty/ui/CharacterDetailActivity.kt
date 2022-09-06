@@ -67,7 +67,7 @@ class CharacterDetailActivity : AppCompatActivity() {
     private val getEpisodeFromCharacterUseCase: GetEpisodeFromCharacterUseCase by lazy {
         GetEpisodeFromCharacterUseCase(episodeRepository)
     }
-    
+
     private val updateFavoriteCharacterStatusUseCase: UpdateFavoriteCharacterStatusUseCase by lazy {
         UpdateFavoriteCharacterStatusUseCase(characterRepository)
     }
