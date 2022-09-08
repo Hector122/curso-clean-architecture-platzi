@@ -3,7 +3,6 @@ package com.platzi.android.rickandmorty.adapters
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.platzi.android.rickandmorty.R
-import com.platzi.android.rickandmorty.api.EpisodeServer
 import com.platzi.android.rickandmorty.databinding.ItemListEpisodeBinding
 import com.platzi.android.rickandmorty.domain.Episode
 import com.platzi.android.rickandmorty.utils.bindingInflate

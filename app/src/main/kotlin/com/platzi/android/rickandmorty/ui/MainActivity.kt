@@ -7,8 +7,6 @@ import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.platzi.android.rickandmorty.R
 import com.platzi.android.rickandmorty.adapters.HomeNavigationStateAdapter
-import com.platzi.android.rickandmorty.api.CharacterServer
-import com.platzi.android.rickandmorty.database.CharacterEntity
 
 import com.platzi.android.rickandmorty.domain.Character
 import com.platzi.android.rickandmorty.parcelable.toCharacterParcelable

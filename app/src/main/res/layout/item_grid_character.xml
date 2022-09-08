@@ -7,7 +7,7 @@
         <variable
             name="character"
             type="com.platzi.android.rickandmorty.domain.Character"/>
-        <!--  type="com.platzi.android.rickandmorty.api.CharacterServer" -->
+        <!--  type="com.platzi.android.rickandmorty.requestmanager.CharacterServer" -->
     </data>
 
     <com.google.android.material.card.MaterialCardView

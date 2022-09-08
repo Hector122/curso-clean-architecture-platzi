@@ -47,7 +47,10 @@ dependencies {
     //project
     implementation project(':domain')
     implementation project(':data')
-    //implementation project(":data")
+    implementation project(':usecases')
+    implementation project(':framework:imagemanager')
+    implementation project(':framework:databasemanager')
+    implementation project(':framework:requestmanager')
 
     //Kotlin
     implementation kotlinLib
@@ -55,25 +58,26 @@ dependencies {
     //KTX
     implementation ktxLib
 
-    //Glide
-    implementation glideLib
-    annotationProcessor glideCompiler
+//    //Glide move to framework -> image manager
+//    implementation glideLib
+//    annotationProcessor glideCompiler
 
-    //Gson
-    implementation gsonLib
+//    //Gson move to framework -> database manager
+//    implementation gsonLib
 
     //Material
     implementation materialLib
 
-    //Retrofit
-    implementation okHttpInterceptorLib
-    implementation retrofitRxJavaLib
-    implementation retrofitGsonLib
+//    //Retrofit Room move to framework -> network manager
+//    implementation okHttpInterceptorLib
+//    implementation retrofitRxJavaLib
+//    implementation retrofitGsonLib
 
-    //Room
-    api roomLib
-    kapt roomCompiler
-    implementation roomRxJavaLib
+//    //Room move to framework -> database manager
+//    api roomLib
+//    kapt roomCompiler
+//    implementation roomRxJavaLib
+
 
     implementation reactiveStreamsLib
 
