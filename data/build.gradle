@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -30,10 +32,17 @@ android {
 }
 
 dependencies {
+    //Project
+    implementation project(":domain")
 
-    implementation project(':domain')
+    //Dagger
+    implementation daggerLib
+    kapt daggerCompiler
+
+    //Kotlin
     implementation kotlinLib
 
+    //RxJava
     implementation rxJavaLib
 
 //    implementation 'androidx.core:core-ktx:1.7.0'

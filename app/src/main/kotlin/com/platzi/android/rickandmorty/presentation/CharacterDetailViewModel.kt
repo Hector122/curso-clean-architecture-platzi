@@ -3,19 +3,12 @@ package com.platzi.android.rickandmorty.presentation
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.platzi.android.rickandmorty.database.CharacterDao
-import com.platzi.android.rickandmorty.database.CharacterEntity
 import com.platzi.android.rickandmorty.domain.Character
 import com.platzi.android.rickandmorty.domain.Episode
-import com.platzi.android.rickandmorty.usecases.GetAllFavoriteUseCase
 import com.platzi.android.rickandmorty.usecases.GetEpisodeFromCharacterUseCase
 import com.platzi.android.rickandmorty.usecases.GetFavoriteCharacterStatusUseCase
 import com.platzi.android.rickandmorty.usecases.UpdateFavoriteCharacterStatusUseCase
-import io.reactivex.Maybe
-import io.reactivex.Observable
-import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.schedulers.Schedulers
 
 class CharacterDetailViewModel(
     private val character: Character?,

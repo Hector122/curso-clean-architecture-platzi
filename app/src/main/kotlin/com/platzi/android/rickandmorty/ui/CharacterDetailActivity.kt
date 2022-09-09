@@ -11,7 +11,7 @@ import com.platzi.android.rickandmorty.adapters.EpisodeListAdapter
 import com.platzi.android.rickandmorty.requestmanager.APIConstants.BASE_API_URL
 import com.platzi.android.rickandmorty.data.*
 import com.platzi.android.rickandmorty.databasemanager.CharacterDatabase
-import com.platzi.android.rickandmorty.database.CharacterRoomDataSource
+import com.platzi.android.rickandmorty.databasemanager.CharacterRoomDataSource
 import com.platzi.android.rickandmorty.databinding.ActivityCharacterDetailBinding
 import com.platzi.android.rickandmorty.domain.Character
 import com.platzi.android.rickandmorty.imagemanager.bindCircularImageUrl

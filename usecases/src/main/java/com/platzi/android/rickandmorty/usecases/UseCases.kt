@@ -11,7 +11,7 @@ class GetAllCharactersUseCase(private val characterRepository: CharacterReposito
     fun invoke(currentPage: Int) = characterRepository.getAllCharacters(currentPage)
 }
 
-class GetAllFavoriteUseCase(private val characterRepository: CharacterRepository) {
+class GetAllFavoriteCharactersUseCase(private val characterRepository: CharacterRepository) {
     fun invoke() = characterRepository.getAllFavoriteCharacters()
 }
 
