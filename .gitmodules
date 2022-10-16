@@ -43,3 +43,6 @@
 [submodule "Android/Platzi/curso-clean-architecture-platzi"]
 	path = Android/Platzi/curso-clean-architecture-platzi
 	url = git@github.com:Hector122/curso-clean-architecture-platzi.git
+[submodule "Android/Nanodegree/andfun-kotlin-sleep-tracker"]
+	path = Android/Nanodegree/andfun-kotlin-sleep-tracker
+	url = git@github.com:Hector122/andfun-kotlin-sleep-tracker.git
